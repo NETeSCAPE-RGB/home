@@ -32,7 +32,7 @@ listlastmod        = true
 # Fill in following if using opengraph / twitter card
 opengraph   = true
 twitercards = true
-description = "This is the default welcome page used to test the correct operation of the WeBSITE server after installation on NETeSCAPE systems."
+description = "This is the default welcome page used to test the correct operation of the NETeSCAPE server after installation on Innernet systems."
 title       = "NETeSCAPE"
 
 	[Params.card]
@@ -80,6 +80,30 @@ title       = "NETeSCAPE"
     name = "Identity"
     url = "/identity/"
     weight = 10
+
+  [[menu.main]]
+    identifier = "red"
+    name = "Red"
+    url = "https://red.netescape.org"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "green"
+    name = "Green"
+    url = "https://green.netescape.org"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "blue"
+    name = "Blue"
+    url = "https://blue.netescape.org"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "friends"
+    name = "Friends"
+    url = "/friends/"
+    weight = 40
 
 [privacy]
 
