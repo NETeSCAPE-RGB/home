@@ -1,0 +1,19 @@
+<footer class="sk3-flex sk3-flex-center-h sk3-margin-v-full sk3-pad-v-full">
+
+	<div class="sk3-pad-h txt-center-h">
+	{{if site.Copyright}}
+		{{site.Copyright}}
+	{{else}}
+		(c)
+		{{with site.Params.startdate}}
+		{{dateFormat "2006" .}}-
+		{{- end}}
+		{{- now.Format "2006"}} <a href="/">NETeSCAPE</a> <span style='color:#FF0000'>R</span><span style='color:#00FF00'>G</span><span style='color:#0000FF'>B</span>
+	{{end}}
+	</div>
+
+</footer>
+
+<!--hugo internal template-->
+{{if site.Params.opengraph}}{{template "_internal/opengraph.html" .}}{{end}}
+{{if site.Params.twittercards}}{{template "_internal/twitter_cards.html" .}}{{end}}

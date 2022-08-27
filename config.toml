@@ -1,0 +1,175 @@
+baseURL = "https://netescape.org"
+theme   = "sk3"
+title   = "NETeSCAPE"
+ignoreErrors = ["error-remote-getjson"]
+
+DefaultContentLanguage = "en"
+enableGitInfo          = false
+enableInlineShortcodes = true
+languageCode           = "en"
+paginate               = 3
+
+#disqusShortname = ""
+#googleAnalytics = ""
+
+[Params]
+# adsense_id         = ""
+# adsense_page_level = true
+custom_css         = ["/css/override.css"]
+# custom_js          = ["/js/abc.js", "/js/def.js"]
+favicon            = "/favicon.ico"
+# googleAnalyticsUA  = true
+listlastmod        = true
+# mainSections       = "post"
+# openToc            = false
+ pageinfobox        = true
+# pagewidth          = "1200px"
+# startdate          = "2012-12-02"
+# subtitle           = "A Hugo Theme"
+# svg_ext            = false
+# user_canonical     = false
+
+# Fill in following if using opengraph / twitter card
+opengraph   = true
+twitercards = true
+description = "This is the default welcome page used to test the correct operation of the NETeSCAPE server after installation on Innernet systems."
+title       = "NETeSCAPE"
+
+	[Params.card]
+	date    = true
+	summary = true
+	#width  = "32%"
+
+	[Params.color]
+	bg     = "black"
+	border = "white"
+	link   = "#808080"
+	text   = "white"
+
+	# [Params.sociallink]
+	# facebook       = ""
+	# flickr         = ""
+	# github         = ""
+	# instagram      = ""
+	# linkedin       = ""
+	# pinterest      = ""
+	# reddit         = ""
+	# rss            = true
+	# stack-exchange = ""
+	# stack-overflow = ""
+	# tumblr         = ""
+	# twitter        = ""
+	# vimeo          = ""
+	# youtubechannel = ""
+	# youtubeuser    = ""
+
+	# [Params.socialshare]
+	# facebook  = false
+	# instagram = false
+	# linkedin  = false
+	# pinterest = false
+	# reddit    = false
+	# telegram  = false
+	# twitter   = false
+	# vk        = false
+
+[menu]
+
+  [[menu.main]]
+    identifier = "identity"
+    name = "Identity"
+    url = "/identity/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "red"
+    name = "Red"
+    url = "https://red.netescape.org"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "green"
+    name = "Green"
+    url = "https://green.netescape.org"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "blue"
+    name = "Blue"
+    url = "https://blue.netescape.org"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "friends"
+    name = "Friends"
+    url = "/friends/"
+    weight = 40
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[markup]
+defaultMarkdownHandler = "goldmark"
+
+[markup.highlight]
+codeFences         = true
+guessSyntax        = false
+hl_Lines           = ""
+lineNoStart        = 1
+lineNos            = true
+lineNumbersInTable = true
+noClasses          = true
+style              = "fruity"
+tabWidth           = 4
+
+[markup.tableOfContents]
+endLevel   = 6
+ordered    = false
+startLevel = 1
+
+[markup.goldmark]
+[markup.goldmark.extensions]
+definitionList = true
+footnote       = true
+linkify        = true
+strikethrough  = true
+table          = true
+taskList       = true
+typographer    = true
+[markup.goldmark.parser]
+attribute         = true
+autoHeadingID     = true
+autoHeadingIDType = "github"
+[markup.goldmark.renderer]
+hardWraps = false
+unsafe    = true
+xhtml     = false

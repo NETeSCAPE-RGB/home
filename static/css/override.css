@@ -1,0 +1,13 @@
+html {
+  font-family: Tahoma, Arial, Helvetica, sans-serif, "Lucida Console", Monaco, monospace;
+}
+
+.netescape-header {
+  justify-content:center;
+  margin-left:30px;
+  margin-right:30px;
+}
+
+.netescape-image {
+  max-height:calc(var(--h1-size-using) * 2);
+}
