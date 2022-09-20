@@ -84,25 +84,19 @@ title       = "NETeSCAPE"
   [[menu.main]]
     identifier = "red"
     name = "Red"
-    url = "https://red.netescape.org"
+    url = "https://red.netesc.org"
     weight = 20
 
   [[menu.main]]
     identifier = "green"
     name = "Green"
-    url = "https://green.netescape.org"
+    url = "https://green.netesc.org"
     weight = 30
 
   [[menu.main]]
     identifier = "blue"
     name = "Blue"
-    url = "https://blue.netescape.org"
-    weight = 40
-
-  [[menu.main]]
-    identifier = "friends"
-    name = "Friends"
-    url = "/friends/"
+    url = "https://blue.netesc.org"
     weight = 40
 
 [privacy]

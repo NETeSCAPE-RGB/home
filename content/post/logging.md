@@ -28,6 +28,6 @@ I may not upload some at all. They might be personal.
 
 Time is an oddity here, so I will be using Epoch to keep track of it.
 
-If you'd like to see, you can view them [here](https://green.netescape.org), or at green.netescape.org if you cannot link.
+If you'd like to see, you can view them [here](https://green.netesc.org), or at green.netesc.org if you cannot link.
 
 See you soon!
