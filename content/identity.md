@@ -1,7 +1,6 @@
 +++
 title = "Identity"
-date = "2022-05-13"
-aliases = ["about-us", "about-hugo", "contact"]
+date = "2023-01-27"
 author = "RGB"
 +++
 
